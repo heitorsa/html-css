@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+/*Header*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 12px;
+}
+
+#sub {
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+header {
+    background-color: green;
+    background-image: linear-gradient(#8fd18f, #003b00);
+    margin: 0px;
+    padding-top: 40px;
+    
+}
+
+.titulo_pagina {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    padding: 12px 0px;
+    background-color:rgb(0, 59, 0);
+}
+
+nav > a {
+    color: white;
+    padding-right: 24px;
+    font-weight: 200;
+    text-decoration: none;
+    
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    padding-left: 16px;
+}
+
+/*Body*/
+
+main {
+    background-color: #8fd18f;
+    padding-bottom: 24px;
+}
+
+#container {
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 12px 24px;
+    box-shadow: 0px 2px 10px rgb(94, 94, 94);
+    border-radius: 0px 0px 16px 16px;
+}
+
+h2 {
+    font-family: Tiny5;
+    color: #003b00;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+p {
+    text-align: justify;
+}
+
+h3 {
+    font-family: Tiny5;
+    color: #003b00;
+    font-size: 24px;
+    padding: 6px 12px 6px 8px;
+    margin: 0px 12px 0px 0px;
+    background-image: linear-gradient(to left, white, rgb(157, 187, 157));
+}
+
+.textlink {
+    text-decoration: none;
+    color: #003b00;
+    font-weight: bold;
+}
+
+.textlink:hover {
+    text-decoration: underline;
+}
+
+#bugdroid {
+    display: flex;
+    margin: auto;
+}
+
+.aprender_mais {
+    background-color: #9ec99e;
+    border-radius: 12px;
+    padding-bottom: 20px;
+}
+
+.titulo_aprender {
+    background-color: #0f790f;
+    color: white;
+    padding: 16px 16px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.prip {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 0px;
+}
+
+.second {
+    padding: 0px 12px 12px 12px;
+    margin: 0px;
+}
+
+strong {
+    color: #003b00;
+    font-weight: bold;
+}
+
+.ol {
+    display: flex;
+    padding: 0px;
+}
+
+ul {
+    width: 300px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #003b00;
+}
+
+#rodape {
+    display: flex;
+    justify-content: center;
+}
+
+#textrodape {
+    color: white;
+}
