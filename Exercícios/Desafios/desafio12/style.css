@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background: gray;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 48px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 48px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Corpo*/
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.6em;
+    padding-left: 40px;
+}
+
+section.normal {
+    background-color: white;
+    color: #111;
+}
+
+section.imagem {
+    background-color: #272727;
+    color: white;
+}
+
+section.imagem > p {
+    width: 360px;
+    background-color: rgb(19, 19, 19);
+    padding: 16px;
+}
+
+/*Rodapé*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
