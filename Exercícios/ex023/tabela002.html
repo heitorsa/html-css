@@ -19,9 +19,20 @@
             padding: 4px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 12px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: grey;
             color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
     </style>
@@ -29,10 +40,11 @@
 <body>
     <h1>Uso de tableas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -88,11 +100,35 @@
                 <td>Paraíba</td>
                 <td>3 974 687</td>
             </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>3 941 613</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>3 833 712</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>3 658 649</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>3 302 729</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td>3 230 659</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>3 032 256</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Haibtantes</th>
-                <td>0000</td>
+                <th scope="row">Total de Habitantes</th>
+                <td>210 025 215</td>
             </tr>
         </tfoot>
     </table>
